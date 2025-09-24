@@ -10,6 +10,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px black solid;
+  margin-bottom: 14px;
 }
 .app-logo-text {
   font-weight: 900;
@@ -23,6 +25,7 @@
   width: 90px;
   padding: 4px;
   cursor: pointer;
+  background-color: white;
 }
 .app-content-container {
   height: 90vh;
@@ -46,6 +49,7 @@
   outline: none;
   flex-shrink: 0;
   margin-right: 8px;
+  margin-bottom: 14px;
 }
 .app-users-content-container {
   flex: 1;
