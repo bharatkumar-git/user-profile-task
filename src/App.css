@@ -1,0 +1,84 @@
+.app-main-container {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Roboto';
+}
+.app-head-container {
+  height: 10vh;
+  padding-left: 40px;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.app-logo-text {
+  font-weight: 900;
+  font-family: 'bree serif';
+}
+.app-add-user-button {
+  border: 1px black solid;
+  border-radius: 8px;
+  outline: none;
+  height: 28px;
+  width: 90px;
+  padding: 4px;
+  cursor: pointer;
+}
+.app-content-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.app-content-search-filter-container {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-content-input {
+  width: 50%;
+  height: 32px;
+  border: 1px grey soild;
+  border-radius: 8px;
+  padding-left: 6px;
+  outline: none;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+.app-users-content-container {
+  flex: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app-user-cards-ul {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.app-user-cards-li-item {
+  width: 45%;
+  border-radius: 14px;
+  margin-bottom: 24px;
+  padding: 14px;
+  color: black;
+  list-style-type: none;
+  border: 1px black solid;
+  line-height: 8px;
+}
+.bold-text {
+  font-weight: bold;
+}
+.app-user-profile-icons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 4px;
+}
